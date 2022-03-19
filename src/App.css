@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+#contactframe{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  margin: 10px;
+  border-radius: 50%;
+  border: 3px solid;
+}
+
+#imageframe{
+  margin-left: 3px;
+  width: 90px;
+  border-top: 1px solid silver;
+}
+
+#info{
+  width: 190px;
+  border-top: 1px solid silver;
+
+}
+
+#layout{
+  display: flex;
+  justify-content: center;
+}
+
+.phone{
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#name{
+  font-size: 17px;
+  font-weight: bold;
+}
+#main{
+  margin: 30px;
+  border: 8px solid;
+  border-radius: 20px;
+  height: 550px;
+  width: 325px;
+  overflow: auto;
+}
+#symbol{
+  flex-direction: column;
+  align-content: center;
+  margin-right: 3px;
+  width: 15px;
+  border-top: 1px solid silver;
+}
