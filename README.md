@@ -15,6 +15,6 @@ You may also see any lint errors in the console.
     javascript
     
 # Deploy From HOST
-     https://perscholas-contacts.herokuapp.com/
+Open [https://perscholas-contacts.herokuapp.com](https://perscholas-contacts.herokuapp.com)
     
 
