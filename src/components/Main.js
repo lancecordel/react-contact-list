@@ -1,4 +1,4 @@
-import contact from '../data/contact';
+import contact from '../data/contact.json';
 import Contacts from './Contacts';
 function Main(){
 
@@ -6,7 +6,7 @@ function Main(){
         <div id='main'>
             {
                 
-                contact.map((currentObject, indexOfCurrentObject) =>{
+                contact.results.map((currentObject, indexOfCurrentObject) =>{
                     return <Contacts currentObject={currentObject} key={indexOfCurrentObject}/>
                 })
             }
